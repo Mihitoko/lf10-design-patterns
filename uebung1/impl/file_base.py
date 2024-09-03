@@ -4,5 +4,5 @@ import abc
 class IFile(abc.ABC):
 
     @abc.abstractmethod
-    def print_name(self):
+    def print(self, indent=0):
         ...
