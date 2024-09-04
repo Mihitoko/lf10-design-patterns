@@ -10,3 +10,7 @@ class IFile(abc.ABC):
     @abc.abstractmethod
     def get_name(self):
         ...
+
+    @abc.abstractmethod
+    def get_size(self) -> int:
+        ...

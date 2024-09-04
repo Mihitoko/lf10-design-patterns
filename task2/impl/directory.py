@@ -26,3 +26,9 @@ class Directory(IFile):
 
     def get_name(self):
         return self.name
+
+    def get_size(self) -> int:
+        s = 0
+        for file in self.files:
+            s += file.get_size()
+        return s
