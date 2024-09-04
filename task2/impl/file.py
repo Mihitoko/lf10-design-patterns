@@ -21,5 +21,3 @@ class File(IFile):
     def get_name(self):
         return self.name
 
-    def get_size(self) -> int:
-        return self.size

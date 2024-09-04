@@ -10,20 +10,10 @@ A
 -D
 --d.txt
 """
-from task1.impl.directory import Directory
-from task1.impl.file import File
 
 
 def main():
-    c = File('c.txt')
-    cdir = Directory('C', [c])
-    bdir = Directory('B', [cdir])
-    d = File('d.txt')
-    ddir = Directory('D', [d])
-    a = File('a.txt')
-    adir = Directory('A', [a, bdir, ddir])
-
-    adir.print()
+    raise NotImplementedError
 
 
 if __name__ == '__main__':
