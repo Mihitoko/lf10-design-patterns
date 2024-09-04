@@ -10,8 +10,8 @@ A
 -D
 --d.txt
 """
-from uebung1.impl.directory import Directory
-from uebung1.impl.file import File
+from task1.impl.directory import Directory
+from task1.impl.file import File
 
 
 def main():

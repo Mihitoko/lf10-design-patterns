@@ -1,4 +1,4 @@
-from uebung1.impl.file_base import IFile
+from task1.impl.file_base import IFile
 
 
 class Directory(IFile):
